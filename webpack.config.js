@@ -9,9 +9,9 @@ module.exports = {
   entry: resolve('component.vue'),
   output: {
     path: resolve('dist'),
-    filename: 'FormSchemaNative.js',
+    filename: 'vue-json-schema.js',
     libraryTarget: 'umd',
-    library: 'FormSchemaNative',
+    library: 'FormSchema',
     umdNamedDefine: true
   },
   module: {
