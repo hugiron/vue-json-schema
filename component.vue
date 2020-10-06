@@ -157,10 +157,6 @@
               break
 
             case 'select':
-              if (!field.required) {
-                children.push(createElement(components.option.component))
-              }
-
               field.items.forEach((option) => {
                 const optionOptions = this.elementOptions(components.option, {
                   value: option.value
